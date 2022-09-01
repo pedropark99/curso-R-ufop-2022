@@ -1,0 +1,46 @@
+---
+title: "Curso R - UFOP 2022"
+author: "Pedro Duarte Faria"
+format: revealjs
+---
+
+
+## Quem sou eu
+
+- Economista e Analista de dados em Take Blip 📈;
+- Amo programação, especialmente R 🤓;
+- Autor de livros técnicos 📚;
+
+
+Conheça mais sobre o meu trabalho:
+
+[https://pedro-faria.netlify.app/](https://pedro-faria.netlify.app/)
+
+
+## Minha principal obra
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](Imagens/capa_4_edicao_jpg.jpg)
+:::
+
+::: {.column width="60%"}
+Introdução à Linguagem R: seus fundamentos e sua prática. 4 ed. 2022
+
+[Leia o livro através deste link](https://pedropark99.github.io/Introducao_R/)
+:::
+
+::::
+
+
+
+
+## Entenda isso
+
+Ninguém aqui é estúpido! Deixe me repetir isso mais uma vez...
+
+
+
+
+
