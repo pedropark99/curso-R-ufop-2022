@@ -1,7 +1,11 @@
 ---
 title: "Curso R - UFOP 2022"
 author: "Pedro Duarte Faria"
-format: revealjs
+execute: 
+  echo: true
+format: 
+  revealjs:
+    css: styles.css
 ---
 
 
@@ -36,9 +40,65 @@ Introdução à Linguagem R: seus fundamentos e sua prática. 4 ed. 2022
 
 
 
-## Entenda isso
 
-Ninguém aqui é estúpido! Deixe me repetir isso mais uma vez...
+##
+
+<div class="stupid"><b>Você não é estúpido!</b></div>
+
+Você só não entendeu ainda toda a lógica do trem...
+
+
+## Programação é linguagem
+
+Um programa é formado por **palavras**....e cada palavra tem um significado especial;
+
+
+```{r}
+#| eval: false
+library(readr)
+
+github <- "https://raw.githubusercontent.com/pedropark99/"
+path <- "Curso-R/master/Dados/transf_reform.csv"
+url <- paste0(github, path)
+
+dados <- readr::read_csv2(url)
+dados
+```
+
+
+## Programação é uma linguagem
+
+Se você não sabe o que cada palavra individual significa, você não vai conseguir entender o que elas significam em conjunto.
+
+
+
+## Aprender programação é sobre...
+
+
+- Aprender sobre as partes que compõe o todo;
+- Aprender sobre o mais simples, antes do mais complexo;
+- Aprender sobre como cada palavra se conecta;
+
+
+## Ou seja
+
+Comece pequeno, aprenda as partes pequenas, e depois, tente aprender o todo.
+
+
+
+## Vamos começar
+
+Primeiro, **tudo no R são objetos**.
+
+
+## Como criar um objeto
+
+```{r}
+#| eval: false
+nome do objeto <- valor do objeto
+```
+
+
 
 
 
