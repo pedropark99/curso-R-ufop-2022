@@ -93,6 +93,8 @@ Primeiro, **tudo no R são objetos**.
 
 ## Como criar um objeto
 
+Nós criamos um objeto com o operador de *assignment* (`<-`):
+
 ```{r}
 #| eval: false
 nome do objeto <- valor do objeto
