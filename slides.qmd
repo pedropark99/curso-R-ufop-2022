@@ -1,5 +1,5 @@
 ---
-title: "Curso R - UFOP 2022"
+title: "Curso de R - UFOP 2022"
 author: "Pedro Duarte Faria"
 execute: 
   echo: true
@@ -48,61 +48,70 @@ Introdução à Linguagem R: seus fundamentos e sua prática. 4 ed. 2022
 Você só não entendeu ainda toda a lógica do trem...
 
 
-## Programação é linguagem
+## Para aprender programação
 
-Um programa é formado por **palavras**....e cada palavra tem um significado especial;
+Você precisa:
 
-
-```{r}
-#| eval: false
-library(readr)
-
-github <- "https://raw.githubusercontent.com/pedropark99/"
-path <- "Curso-R/master/Dados/transf_reform.csv"
-url <- paste0(github, path)
-
-dados <- readr::read_csv2(url)
-dados
-```
-
-
-## Programação é uma linguagem
-
-Se você não sabe o que cada palavra individual significa, você não vai conseguir entender o que elas significam em conjunto.
+1) ter paciência `r emoji::emoji("grinning face with sweat")`;
+2) aprender aos poucos;
+3) ter curiosidade para testar e brincar `r emoji::emoji("nerd_face")`;
+4) consultar diferentes materiais (livros, vídeos, blog posts, etc.);
 
 
 
-## Aprender programação é sobre...
+## Introduzindo o R
+
+Vamos para a prática agora!
 
 
-- Aprender sobre as partes que compõe o todo;
-- Aprender sobre o mais simples, antes do mais complexo;
-- Aprender sobre como cada palavra se conecta;
+<!-- ## O que é um objeto -->
+
+<!-- Um objeto é um nome que se refere a um conjunto de dados; -->
 
 
-## Ou seja
+<!-- ## Introduzindo o R -->
 
-Comece pequeno, aprenda as partes pequenas, e depois, tente aprender o todo.
-
-
-
-## Vamos começar
-
-Primeiro, **tudo no R são objetos**.
+<!-- Isso significa que, no R, você está o tempo todo criando, destruindo, transformando e utilizando diferentes objetos. -->
 
 
-## Como criar um objeto
+<!-- ## Como criar um objeto -->
 
-Nós criamos um objeto com o operador de *assignment* (`<-`):
+<!-- Nós criamos um objeto com o operador de *assignment* (`<-`): -->
 
-```{r}
-#| eval: false
-nome do objeto <- valor do objeto
-```
-
-
+<!-- ```{r} -->
+<!-- #| eval: false -->
+<!-- nome do objeto <- valor do objeto -->
+<!-- ``` -->
 
 
+<!-- ## Como criar um objeto -->
+
+<!-- O nome e o valor de cada objeto estão, respectivamente, à esquerda e à direita do símbolo `<-`; -->
+
+<!-- ```{r} -->
+<!-- nome <- "Pedro" -->
+<!-- cidade <- "Mariana" -->
+<!-- altura <- 1.65 -->
+<!-- peso <- 60 -->
+<!-- fui_ao_supermercado <- TRUE -->
+<!-- ``` -->
 
 
+<!-- ## Acessando o valor de um objeto -->
+
+<!-- Podemos acessar/utilizar o valor que um objeto armazena, ao chamar pelo nome deste objeto: -->
+
+<!-- ```{r} -->
+<!-- nome -->
+<!-- ``` -->
+
+
+<!-- ## Utilizando o valor de um objeto -->
+
+<!-- Com isso, eu consigo fazer alguns cálculos idiotas: -->
+
+<!-- ```{r} -->
+<!-- kg_por_metro <- peso / altura -->
+<!-- kg_por_metro -->
+<!-- ``` -->
 

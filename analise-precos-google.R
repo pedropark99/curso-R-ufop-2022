@@ -3,7 +3,6 @@ library(magrittr)
 library(dplyr)
 library(readr)
 
-readr::write_delim(goog200, "Dados/goog200.csv", delim = ",")
 
 ### Importando os dados --------------------------------------
 ##
@@ -11,7 +10,7 @@ github <- "https://raw.githubusercontent.com/pedropark99/"
 arquivo <- "curso-R-ufop-2022/main/Dados/goog200.csv"
 url <- paste0(github, arquivo)
 
-goog200 <- read_csv2(url)
+goog200 <- read_csv(url)
 goog200 <- ts(goog200$value)
 
 
@@ -41,7 +40,7 @@ forecast::autoplot(previsao)
 
 arquivo <- "curso-R-ufop-2022/main/Dados/serie-pib-brasil.csv"
 url <- paste0(github, arquivo)
-pib <- read_csv2(url)
+pib <- read_csv(url)
 serie_pib <- pib$PIB
 serie_pib <- as.double(serie_pib)
 serie_pib <- ts(serie_pib, start = 1961, frequency = 1)
