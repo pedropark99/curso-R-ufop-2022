@@ -55,8 +55,21 @@ Você precisa:
 1) ter paciência `r emoji::emoji("grinning face with sweat")`;
 2) aprender aos poucos;
 3) ter curiosidade para testar e brincar `r emoji::emoji("nerd_face")`;
-4) consultar diferentes materiais (livros, vídeos, blog posts, etc.);
+4) consultar diferentes materiais (google, livros, vídeos, posts, etc.);
 
+
+
+## Instale o R em seu computador
+
+Para utilizar o R, você precisa instalá-lo em seu computador.
+
+Baixe o instalador: [https://cran.r-project.org/](https://cran.r-project.org/)
+
+## Se possível, instale o RStudio também
+
+Não é necessário, mas é muito desejável que você instale o RStudio, que também é gratuito.
+
+Baixe o instalador: [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
 
 
 ## Introduzindo o R
